@@ -1,0 +1,71 @@
+// PROTOsaur CSS framework
+
+// Rubber
+$i: 200;
+@while $i <= 2000 {
+  .gt#{ $i }{ min-width: #{ $i }px }
+  .lt#{ $i }{ max-width: #{ $i }px }
+
+  $i: $i + 100;
+}
+
+// margin/padding
+.ma{ margin: auto }
+
+$i: 0;
+@while $i <= 100 {
+  .p#{ $i }{ padding:#{ $i }px }
+  .m#{ $i }{ margin: #{ $i }px }
+
+  .pt#{ $i }{ padding-top:    #{ $i }px }
+  .pr#{ $i }{ padding-right:  #{ $i }px }
+  .pb#{ $i }{ padding-bottom: #{ $i }px }
+  .pl#{ $i }{ padding-left:   #{ $i }px }
+
+  .mt#{ $i }{ margin-top:    #{ $i }px }
+  .mr#{ $i }{ margin-right:  #{ $i }px }
+  .mb#{ $i }{ margin-bottom: #{ $i }px }
+  .ml#{ $i }{ margin-left:   #{ $i }px }
+
+  $i: $i + 5;
+}
+
+// width
+$i: 100;
+@while $i <= 1500 {
+  .w#{ $i }{ width: #{ $i }px }
+  $i: $i + 10;
+}
+
+// font-size
+$i: 10;
+@while $i <= 30 {
+  .fs#{ $i }{ font-size: #{ $i }px }
+  $i: $i + 1;
+}
+
+// line-height
+$i: 100;
+@while $i <= 200 {
+  .lh#{ $i }{ line-height: #{ $i + '%' } }
+  $i: $i + 5;
+}
+
+.fr{ float: right }
+.fl{ float: left }
+
+.tac{ text-align: center }
+.tar{ text-align: right }
+.tal{ text-align: left }
+
+.b{ font-weight: bold }
+.i{ font-style: italic }
+
+.iblock{ display: inline-block }
+.showme{ border: 1px solid red }
+
+.posrel{ position: relative }
+.posabs{ position: absolute }
+
+.spoiler{ cursor: pointer }
+.spoiler-content{ display: none }

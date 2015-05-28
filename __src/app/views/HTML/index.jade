@@ -1,0 +1,30 @@
+extends ../layouts/application.jade
+
+block open_graph
+  meta(property="og:image" content="images/rails-logo.jpg")
+
+  meta(property="og:title"       content="the-teacher, Ruby on Rails development")
+  meta(property="og:description" content="Ruby on Rails, web development")
+  meta(property="og:site_name"   content="the-teacher.github.io")
+
+  meta(property="og:author" content="Ilya N. Zykin (zykin-ilya@ya.ru)")
+
+  meta(property="og:type"         content="article")
+  meta(property="article:Section" content="Ruby on Rails")
+  meta(property="article:Name"    content="the-teacher, Ruby on Rails")
+
+  meta(property="article:published_time" content="2015-03-22T00:00:00+03:00")
+  meta(property="article:modified_time"  content="2015-03-22T00:00:00+03:00")
+
+block title
+  | Rails Commercial Solutions
+
+block main_content
+  p.title
+    nobr We provide high quality
+    br
+    nobr &nbsp;&nbsp;&nbsp; complex and production-ready solutions
+    br
+    nobr &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for Rails applications
+  hr
+  p.sign Rails commercial solutions &trade;

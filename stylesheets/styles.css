@@ -1,0 +1,10 @@
+.primary_font,.primary_font_light{font-family:'Open Sans',sans-serif}
+p.sign,p.title{font-weight:300}
+.primary_font_light{font-weight:300}
+.secondary_font{font-family:'Slabo 27px',serif}
+header{background:#eee}
+body{font-family:'Open Sans',sans-serif;background:linear-gradient(to right bottom,#213254,#6a193c)}
+p.title{padding:50px 0 10px 50px;color:#eee;font-size:45px;text-shadow:1px 1px 1px #000}
+p,p.sign{color:#eee;font-size:20px}
+hr{height:1px;background:#aaa;margin:10px 50px}
+p.sign{padding:10px 0 10px 50px}

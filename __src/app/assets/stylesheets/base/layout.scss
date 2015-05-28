@@ -1,0 +1,27 @@
+html, body {
+  width:100%;
+  height:100%;
+}
+
+$footer_height: 60px;
+
+body{
+  & > {
+    .body {
+      margin: auto;
+      height: auto !important;
+      min-height: 100%;
+      height: 100%;
+    }
+
+    .footer, footer{
+      background: #eee;
+      margin: auto;
+      margin-top: -$footer_height;
+    }
+
+    .footer, footer{ height: $footer_height; }
+    .body, .footer, footer{ width: 100%; }
+  }
+  .fguard{ height: $footer_height; }
+}
