@@ -1,5 +1,0 @@
-body,body>.body,body>.footer,body>footer,html{width:100%}
-body,html{height:100%}
-body>.body{margin:auto;height:auto!important;min-height:100%}
-body>.footer,body>footer{background:#eee;margin:-60px auto auto;height:60px}
-body .fguard{height:60px}

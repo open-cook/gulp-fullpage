@@ -1,0 +1,31 @@
+extends ../layouts/landing-01.jade
+
+block open_graph
+  meta(property="og:image" content="images/rails-logo.jpg")
+
+  meta(property="og:title"       content="the-teacher, Ruby on Rails development")
+  meta(property="og:description" content="Ruby on Rails, web development")
+  meta(property="og:site_name"   content="the-teacher.github.io")
+
+  meta(property="og:author" content="Ilya N. Zykin (zykin-ilya@ya.ru)")
+
+  meta(property="og:type"         content="article")
+  meta(property="article:Section" content="Ruby on Rails")
+  meta(property="article:Name"    content="the-teacher, Ruby on Rails")
+
+  meta(property="article:published_time" content="2015-03-22T00:00:00+03:00")
+  meta(property="article:modified_time"  content="2015-03-22T00:00:00+03:00")
+
+block title
+  | Landing Page 01
+
+block main_content
+  section.section-1.active-section(data-role='landing-section')
+  section.section-2(data-role='landing-section')
+  section.section-3(data-role='landing-section')
+  section.section-1(data-role='landing-section')
+  section.section-2(data-role='landing-section')
+  section.section-3(data-role='landing-section')
+  section.section-1(data-role='landing-section')
+  section.section-2(data-role='landing-section')
+  section.section-3(data-role='landing-section')

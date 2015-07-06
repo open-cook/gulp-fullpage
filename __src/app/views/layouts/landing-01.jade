@@ -4,17 +4,20 @@ html(lang="en")
     meta(charset='utf-8')
     title
       block title
-        | github.com/the-teacher
+        | Landing 01
 
     meta(http-equiv='X-UA-Compatible', content='chrome=1')
     meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
 
     //- GLOBAL JAVASCRIPTS
     script(src='http://localhost:3030/livereload.js')
-    script(src='https://code.jquery.com/jquery-2.1.4.min.js')
 
     //- APP JAVASCRIPTS
+    script(src='javascripts/base/jquery-2.1.4.min.js')
+    script(src='javascripts/base/throttle_debounce.js')
     script(src='javascripts/base/jquery.data-role.js')
+    script(src='javascripts/base/scroll-disable.js')
+    script(src='javascripts/base/easing.js')
     script(src='javascripts/base/log.js')
     script(src='javascripts/app.js')
 
@@ -25,7 +28,7 @@ html(lang="en")
     link(rel='stylesheet', type='text/css', href='stylesheets/base/tags.css',      media='screen')
 
     //- LAYOUT CSS
-    link(rel='stylesheet', type='text/css', href='stylesheets/layouts/landing/layout.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='stylesheets/layouts/landing-01/layout.css', media='screen')
 
     //- SPECIFIC CSS
     link(rel='stylesheet', type='text/css', href='stylesheets/landing-01/main.css', media='screen')

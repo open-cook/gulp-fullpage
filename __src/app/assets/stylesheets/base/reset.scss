@@ -1,13 +1,13 @@
 /*
-zykin-ilya@ya.ru
-github.com/the-teacher
-Last modified: 1 apr 2015
+  zykin-ilya@ya.ru
+  github.com/the-teacher
+  Last modified: 1 apr 2015
 
-GLOBAL font-size: 10px; (aka 62.5%)
-provide identity of:
-10px => 1em => 100%
-15px => 1.5em => 150%
-18px => 1.8em => 180%
+  GLOBAL font-size: 10px; (aka 62.5%)
+  provide identity of:
+  10px => 1em => 100%
+  15px => 1.5em => 150%
+  18px => 1.8em => 180%
 */
 * {
   margin: 0;
@@ -233,10 +233,10 @@ html[xmlns] .cf { display: block; }
   position: absolute !important;
   top: 0px;
   left: 0px;
-  height: 0px !important;
-  width: 1px !important;
-  opacity: 0 !important;
-  border: 0 !important;
+  height:  0px !important;
+  width:   1px !important;
+  opacity: 0   !important;
+  border:  0   !important;
 }
 
 /* placeholders fix */
@@ -258,7 +258,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /*
+/*
 .ANY_CLASS{ any_property: x; }
 .test { display: inline-table; }
 */
